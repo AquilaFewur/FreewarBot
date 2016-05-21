@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{637E4EAB-506A-4611-B2FF-725024FB6EFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FreeWarBot12</RootNamespace>
+    <AssemblyName>FreeWarBot12</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>veröffentlichen\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="10656821_555237197945062_1290729012_n.cs" />
+    <Compile Include="AbilityTrainer.cs" />
+    <Compile Include="Actions.cs" />
+    <Compile Include="Auftrag.cs" />
+    <Compile Include="Auftragsmanager.cs" />
+    <Compile Include="ClickCaptcha2.cs" />
+    <Compile Include="Crypter.cs" />
+    <Compile Include="frmBot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBot.designer.cs">
+      <DependentUpon>frmBot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGoldBot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGoldBot.Designer.cs">
+      <DependentUpon>frmGoldBot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGoldLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGoldLogin.Designer.cs">
+      <DependentUpon>frmGoldLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGoldMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGoldMain.Designer.cs">
+      <DependentUpon>frmGoldMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProduktionen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduktionen.Designer.cs">
+      <DependentUpon>frmProduktionen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProgress.Designer.cs">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHealItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHealItems.Designer.cs">
+      <DependentUpon>frmHealItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSell.Designer.cs">
+      <DependentUpon>frmSell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSerial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSerial.Designer.cs">
+      <DependentUpon>frmSerial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserAgent.designer.cs">
+      <DependentUpon>frmUserAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTP.cs" />
+    <Compile Include="GetSatus.cs" />
+    <Compile Include="GetSatus2.cs" />
+    <Compile Include="iTalk Theme.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="Kampfrechner.cs" />
+    <Compile Include="frmSellMarkt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSellMarkt.Designer.cs">
+      <DependentUpon>frmSellMarkt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBankItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBankItems.Designer.cs">
+      <DependentUpon>frmBankItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPermanentInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPermanentInv.Designer.cs">
+      <DependentUpon>frmPermanentInv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KreisFinden.cs" />
+    <Compile Include="Player2.cs" />
+    <Compile Include="SerialChecker.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="MoveManager.cs" />
+    <Compile Include="NPC.cs" />
+    <Compile Include="PathFinder.cs" />
+    <Compile Include="Paths.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="MapWays.cs" />
+    <Compile Include="Settings2.cs" />
+    <Compile Include="Stueck.cs" />
+    <Compile Include="Suchen.cs" />
+    <Compile Include="WebDav.cs" />
+    <Compile Include="Zauberkugel.cs" />
+    <EmbeddedResource Include="frmBot.resx">
+      <DependentUpon>frmBot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGoldBot.resx">
+      <DependentUpon>frmGoldBot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGoldLogin.resx">
+      <DependentUpon>frmGoldLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGoldMain.resx">
+      <DependentUpon>frmGoldMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduktionen.resx">
+      <DependentUpon>frmProduktionen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProgress.resx">
+      <DependentUpon>frmProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHealItems.resx">
+      <DependentUpon>frmHealItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSell.resx">
+      <DependentUpon>frmSell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSerial.resx">
+      <DependentUpon>frmSerial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserAgent.resx">
+      <DependentUpon>frmUserAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSellMarkt.resx">
+      <DependentUpon>frmSellMarkt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBankItems.resx">
+      <DependentUpon>frmBankItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPermanentInv.resx">
+      <DependentUpon>frmPermanentInv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Logo.ico" />
+    <Content Include="Resources\donate.png" />
+    <None Include="Resources\auftrag.png" />
+    <None Include="Resources\free-user.png" />
+    <None Include="Resources\premium.png" />
+    <None Include="Resources\Standard.png" />
+    <None Include="Resources\Sxlaf.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

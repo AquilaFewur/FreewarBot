@@ -1,0 +1,5 @@
+﻿name:Im Dorf von Wilisien gibt es eine Frau, welche diese Schneemesser herstellt, die man sehr gut verwenden kann, um Schnee in essbare Häp
+todo:drop:testitem|92|105;kill:npc|94|105;gsdf
+peace:true
+finish:Du hast irgendeinen scheiß gemacht GW
+end

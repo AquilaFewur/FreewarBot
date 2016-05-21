@@ -1,0 +1,30 @@
+Ölfass;246
+Wakrudpilz;75
+Akte des Auftragshauses;110
+Blattrüstung;700
+blauer Edelstein;700
+blauer Saphir;700
+Buch der Lebensenergie;1000
+Dampfkanone;700
+Doppelaxt;700
+dunkler Sockel;700
+Edelstein der Liebe;330
+Edelstein des Lichts;400
+Gelbpollenschleuder;645
+Giftdolch der Händler;1444
+Goldschwert;888
+Grüner Smaragd;334
+Gula-Nüsse;243
+Kaputter Helm des Lichts;700
+Kaputter Ring des Todes;700
+Kaputter roter Ring;700
+Kralle der Dunkelheit;700
+Kristallglas;2000
+Phasentruhe;2222
+Sandkanone;700
+Schild von Narubia;1250
+Sprengkapsel ;4446
+Stachel des Todes;1557
+Taschenuhr;779
+Stahlanzug-Vorderseite;2102
+Zerfallener Sandring;700
