@@ -71,6 +71,7 @@ namespace FreeWarBot12
                 getStats.MaxLP();
                 OpenInv();
                 LoadInventar();
+              //  Sell();
                 CheckWaffeAnoderAblegen();
                 OpenBankEinzahlung();
                 useHealItems();
@@ -101,7 +102,7 @@ namespace FreeWarBot12
                 {
                     Sell();
                 }
-                else if (!(getStats.px() == 96 & getStats.py() == 101) && (_wB.Document.Window.Frames[1].Document.Body.OuterHtml.Contains("main.php?arrive_eval=verkaufen") | _wB.Document.Window.Frames[1].Document.Body.OuterHtml.Contains("Welches deiner Items möchtest du verkaufen?")))
+                else if (Settings._sell && !(getStats.px() == 96 & getStats.py() == 101) && (_wB.Document.Window.Frames[1].Document.Body.OuterHtml.Contains("main.php?arrive_eval=verkaufen") | _wB.Document.Window.Frames[1].Document.Body.OuterHtml.Contains("Welches deiner Items möchtest du verkaufen?")))
                 {
                     Sell();
                 }
